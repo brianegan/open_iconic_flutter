@@ -1,0 +1,18 @@
+name: open_iconic_flutter_example
+description: The Open Iconic Flutter Gallery
+
+dependencies:
+  flutter:
+    sdk: flutter
+  open_iconic_flutter:
+    path: ../
+
+flutter:
+  uses-material-design: true
+
+  # In order to use open_iconic_flutter in your own app, be sure to
+  # include the following font declaration in your pubspec.yaml
+  fonts:
+    - family: OpenIconic # Do not change!
+      fonts:
+        - asset: packages/open_iconic_flutter/fonts/open-iconic.woff
