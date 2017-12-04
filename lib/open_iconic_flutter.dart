@@ -229,5 +229,10 @@ class OpenIconicIcons {
 }
 
 class _IconData extends IconData {
-  const _IconData(int codePoint) : super(codePoint, fontFamily: 'OpenIconic');
+  const _IconData(int codePoint)
+      : super(
+          codePoint,
+          fontFamily: 'OpenIconic',
+          fontPackage: 'open_iconic_flutter',
+        );
 }

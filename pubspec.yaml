@@ -1,12 +1,15 @@
 name: open_iconic_flutter
-author: Brian Egan <brian@brianegan.com>
 description: The Open Iconic icon pack available as a set of Flutter Icons
+author: Brian Egan <brian@brianegan.com>
 homepage: https://github.com/brianegan/open_iconic_flutter
-version: 0.1.0
+version: 0.2.0
 
 dependencies:
   flutter:
     sdk: flutter
 
 flutter:
-  uses-material-design: true
+  fonts:
+    - family: OpenIconic
+      fonts:
+        - asset: assets/open-iconic.woff

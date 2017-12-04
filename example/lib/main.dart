@@ -36,7 +36,7 @@ class FontAwesomeGalleryHomeState extends State<FontAwesomeGalleryHome> {
     final filteredIcons = icons
         .where((icon) =>
             _searchTerm.isEmpty ||
-            icon.title.toLowerCase().startsWith(_searchTerm.toLowerCase()))
+            icon.title.toLowerCase().contains(_searchTerm.toLowerCase()))
         .toList();
     final orientation = MediaQuery.of(context).orientation;
 

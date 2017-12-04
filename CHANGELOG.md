@@ -1,3 +1,7 @@
+## 0.2.0
+
+  * Updated to latest Flutter. No longer need to include the font in your own own pubspec.yml.
+
 ## 0.1.0
 
   * First version of Open Iconic icons as Flutter `Icons`
