@@ -103,8 +103,7 @@ class FontAwesomeGalleryHomeState extends State<FontAwesomeGalleryHome> {
         new IconButton(
             icon: new Icon(OpenIconicIcons.magnifyingGlass),
             onPressed: () {
-              ModalRoute
-                  .of(context)
+              ModalRoute.of(context)
                   .addLocalHistoryEntry(new LocalHistoryEntry(onRemove: () {
                 setState(() {
                   _searchTerm = "";
@@ -138,7 +137,7 @@ class FontAwesomeGalleryHomeState extends State<FontAwesomeGalleryHome> {
         onChanged: (text) => setState(() => _searchTerm = text),
         autofocus: true,
         style: new TextStyle(fontSize: 18.0),
-        decoration: new InputDecoration(hideDivider: true),
+        decoration: new InputDecoration(border: InputBorder.none),
         keyboardType: TextInputType.text,
       ),
     );

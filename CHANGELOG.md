@@ -1,3 +1,8 @@
+## 0.3.0
+
+  * Now requires Dart 2
+  * Add environmental constraint on Dart SDK enforcing Dart 2 - 3
+  
 ## 0.2.0
 
   * Updated to latest Flutter. No longer need to include the font in your own own pubspec.yml.
