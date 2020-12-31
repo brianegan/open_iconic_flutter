@@ -7,7 +7,7 @@ The [Open Iconic](https://useiconic.com/open) icon pack available as set of Flut
 In the `dependencies:` section of your `pubspec.yaml`, add the following line:
 
 ```yaml
-  open_iconic_flutter: 0.1.0    
+  open_iconic_flutter: 0.3.0    
 ```
 
 ## Usage
